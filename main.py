@@ -10,6 +10,6 @@ parte = st.radio(
 
 if parte == "online" :
     if st.button("calculadora"):
-        st.swich_page("calculator.py")
+        st.switch_page("calculator.py")
 
 
