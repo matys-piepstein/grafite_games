@@ -1,3 +1,6 @@
+import streamlit as st
+
+
 def pedir_numero(mensaje):
     while True:
         try:

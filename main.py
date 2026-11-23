@@ -3,9 +3,13 @@ import random
 
 st.title("Bienvenidos a grafite games")
 
-st.radio(
+parte = st.radio(
     "donde jugar",
-    ["ofline(descargar)","online"]
+    ["descargar","online"]
 )
+
+if parte == online
+    if st.buton("calculadora"):
+        st.swich_page("calculator.py")
 
 
