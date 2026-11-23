@@ -8,7 +8,7 @@ parte = st.radio(
     ["descargar","online"]
 )
 
-if parte == online
+if parte == online :
     if st.buton("calculadora"):
         st.swich_page("calculator.py")
 
